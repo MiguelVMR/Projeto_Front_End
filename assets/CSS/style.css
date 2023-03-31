@@ -1,1 +1,23 @@
 
+.intro-content{
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    height: 100vh;
+    gap: var(--gap)
+    
+
+}
+.intro-text{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.intro-text h2{
+    font-size: 8rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
