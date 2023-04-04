@@ -20,11 +20,10 @@
     <h1><a href="#home">Home</a> </h1>
     <nav>
         <ul>
-            <li><a href="#intro">Intro</a></li>
-            <li><a href="#grid-one">Grid-one</a></li>
-            <li><a href="#gallery">gallery</a></li>
-            <li><a href="#grid-two">Grid-two</a></li>
-            <li><a href="#Pricing">Pricing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#HTML">HTML</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#JavaScript">JavaScript</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
@@ -37,10 +36,8 @@
    <section id="home" class="intro main-bg section">
     <div class="main-content intro-content">
     <div class="intro-text">
-    <h2>January brings us Firefox 85</h2>
-    <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you
-        support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash
-        support from Firefox.</p> 
+    <h2>Introdção ao Front-End.</h2>
+    <p>A programação front-end é responsável pela construção da interface com a qual o usuário interage em um site, aplicativo ou software. Essa parte do desenvolvimento é interpretada pelos navegadores ou sistemas operacionais, e seu objetivo é transmitir os elementos visuais e interativos que permitem a interação do usuário com a aplicação. Usando de bases 3 tipos de linguagens: O JavaScript, HTML e o CSS.</p> 
     </div>
         <div class="intro-img">
             <h1><img src="/assets/img/JS.svg" alt="Logo de HTML, CSS e JS"></h1>
@@ -48,43 +45,7 @@
     </div>
    </section>
 
-   <section id="intro" class="white-bg section">
-    <div class="main-content top3-content">
-        <h2>Titulo provisório</h2>
-        <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
-      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
-      <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
-      </div>
-   </section>
-
-   <section id="grid-one" class="grid-one main-bg section">
-    <div class="main-content grid-one-content">
-      <h2 class="grid-main-heading">My Grid</h2>
-      <p class="grid-description">Uma breve descrição.</p>
-
-      <div class="grid">
-        <article>
-            <h3>Teste 1</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
-          </article>
-          <article>
-            <h3>Teste 2</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
-          </article>
-          <article>
-            <h3>Teste 2</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
-        </article>
-      </div>
-    </div>
-   </section>
-
+   
    <section id="gallery" class="grid-one white-bg section">
     <div class="main-content grid-one-content">
       <h2 class="grid-main-heading">Gallery</h2>
@@ -92,97 +53,120 @@
 
       <div class="grid">
         <div class="gallery-img">
-            
-            <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+            <figure>
+            <img src="/assets/img/fragmento-codigo-html.jpg" alt="Imagem de um código HTML" /> </figure>
         </div>
         <div class="gallery-img">
-           
-            <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+           <figure>
+            <img src="/assets/img/CSS.jpg" alt="Imagem de um código em CSS" /> </figure>
           </div>
           <div class="gallery-img">
-            
-            <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+            <figure>
+            <img src="/assets/img/JavaScript.jpg" alt="Imagem de um código em CSS" /> </figure>
           </div>
         
       </div>
     </div>
    </section>
 
+   <section id="HTML" class="main-bg section">
+    <div class="main-content top3-content">
+        <h2>O HTML</h2>
+        <p>Sigla para HyperText Markup Language — Linguagem de Marcação de Hipertexto —, o HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.</p>
 
-   <section id="grid-two" class="grid-one main-bg section">
+      <p>No HTML, utilizamos elementos para definir os diferentes tipos de conteúdo de uma página web. Por exemplo, para definir um título, usamos o elemento <code>h1</code> e para criar um parágrafo, usamos o elemento <code>p</code>. Além disso, podemos adicionar ênfase ou importância a palavras utilizando os elementos <code>strong</code> e <code> em</code>, criar listas com os elementos <code>ul</code> e <code>ol</code>, e muito mais </p>
+
+      <p>Imagine que você está construindo uma casa. Antes de começar a construir as paredes e colocar os móveis, é preciso ter um projeto que mostre onde cada coisa deve ficar. O HTML funciona de maneira semelhante. Ele define a estrutura de uma página web, indicando onde cada elemento deve ser colocado e como deve ser exibido</p>
+      </div>
+   </section>
+
+   <section id="grid-one" class="grid-one-content white-bg section">
     <div class="main-content grid-one-content">
-      <h2 class="grid-main-heading">Colocar conteudo</h2>
-      <p class="grid-description">Uma breve descrição.</p>
+      <h2 class="grid-main-heading">Curiosidades sobre o HTML</h2>
+      <p class="grid-description">Aqui listamos 3 curiosidades sobre o HMTL </p>
 
       <div class="grid">
         <article>
-            <h3>Teste 1</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
+            <h3>Curiosidade 1</h3>
+        <p>O HTML foi a primeira linguagem de nível mundial, porém não é a única. Existem muitas outras linguagens destinadas a criação de páginas da web, porém o HTML ainda prevalece.</p>
           </article>
           <article>
-            <h3>Teste 2</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
+            <h3>Curiosidade 2</h3>
+          <p>Desde a sua invenção o HTML evoluiu por 7 versões do HTML: HTML, HTML+, HTML 2.0, HTML 3.0, HTML 3.2, HTML4.0, HTML 4.01 (versão atual), HTML 5 (versão em desenvolvimento).</p>
           </article>
           <article>
-            <h3>Teste 2</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus
-            nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores
-            provident maiores.</p>
+            <h3>Curiosidade 3</h3>
+          <p>Dentre os navegadores para que utilizam o HTML estão :Mozilla Firefox,Google Chrome,Opera,Microsoft Edge,Safari,Vivaldi,Maxthon, Brave.</p>
+        </article>
+      </div>
+    </div>
+   </section>
+
+   <section id="CSS" class="main-bg section">
+    <div class="main-content top3-content">
+        <h2>O CSS</h2>
+        <p>CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML. O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre elementos de uma página.</p>
+
+      <p>O CSS é fácil de aprender e entender, e é facilmente utilizado com HTML ou XHTML. Uma das coisas que você notará sobre escrever CSS é que muito disso é sobre caixas, indicando o tamanho, cor e posição dos elementos. Isso ocorre porque muitos dos elementos HTML podem ser pensados como caixas, uma em cima das outras, e o layout CSS é baseado principalmente no modelo de caixas.</p>
+
+      <p>Em resumo, o CSS é uma ferramenta importante para a aparência visual do seu website, permitindo que você personalize elementos como cores, fontes e layouts. Ele pode ser facilmente aprendido e utilizado em conjunto com HTML.</p>
+      </div>
+   </section>
+
+
+   <section id="grid-two" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Curiosidades sobre o CSS</h2>
+      <p class="grid-description">Aqui listamos 3 curiosidades sobre o CSS</p>
+
+      <div class="grid">
+        <article>
+            <h3>Curiosidade 1</h3>
+        <p>Com o CSS você não precisa mais escrever repetidamente como os elementos individuais se parecem. Isso economiza tempo, encurta o código e diminui a chance de erros. O CSS permite que você tenha vários estilos em uma página HTML, tornando as possibilidades de personalização quase infinitas.</p>
+          </article>
+          <article>
+            <h3>Curiosidade 2</h3>
+          <p>Uma curiosidade interessante sobre o CSS é que muitas vezes podemos criar animações e transições apenas com o uso desta linguagem de estilo. Um exemplo bastante popular é o efeito de deslizar para cima e para baixo, que pode ser facilmente criado com CSS, sem a necessidade de bibliotecas de JavaScript ou outras ferramentas externas </p>
+          </article>
+          <article>
+            <h3>Curiosidade 3</h3>
+          <p>O CSS permite a criação de gradientes de cor em elementos, o que pode resultar em um efeito visual bastante interessante. Além disso, é possível utilizar propriedades como opacidade e transparência para tornar os elementos mais suaves ou mais vibrantes. Vale lembrar que, embora a linguagem seja principalmente voltada para a apresentação visual de um site, ela também pode ser utilizada para controlar o layout e a organização do conteúdo em uma página.</p>
         </article>
       </div>
     </div>
    </section>
 
 
-   <section id="Pricing" class="white-bg section">
+   <section id="JavaScript" class="main-bg section">
     <div class="main-content top3-content">
-        <h2>Titulo provisório</h2>
-        <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
-      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
-      <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
-      <div class="responsive-table">
-      <table>
-        <caption>Pricing table</caption>
-        <thead>
-          <tr><th>Titulo 1</th>
-          <th>Titulo 2</th>
-          <th>Titulo 3</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Conteudo</td>
-            <td>Conteudo</td>
-            <td>Conteudo</td>
-          </tr>
-
-          <tr>
-            <td>Conteudo</td>
-            <td>Conteudo</td>
-            <td>Conteudo</td>
-          </tr>
-
-          <tr>
-            <td>Conteudo</td>
-            <td>Conteudo</td>
-            <td>Conteudo</td>
-          </tr>
-        </tbody>
-        <TFoot>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>testando</td>
-          </tr>
-        </TFoot>
-
-      </table>
-    </div>
-
+        <h2>O JavaScript</h2>
+        <p>JavaScript é uma linguagem de programação poderosa e versátil que permite adicionar interatividade e dinamismo a um site ou aplicativo web. Com algumas linhas de código, é possível controlar elementos multimídia, criar animações, validar formulários, realizar operações matemáticas e muito mais. É uma linguagem orientada a objetos e multiplataforma, o que significa que pode ser usada em diferentes sistemas operacionais e dispositivos. Além disso, o JavaScript é leve e pode ser facilmente integrado a outras tecnologias, como HTML e CSS. Com mais experiência, é possível criar projetos mais complexos, como jogos, aplicativos e até mesmo programas baseados em banco de dados.</p>
     </div>
    </section>
+
+   <section id="grid-tree" class="grid-one-content white-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">Curiosidades sobre o JavaScript</h2>
+      <p class="grid-description">Aqui listamos 3 curiosidades sobre o JavaScript.</p>
+
+      <div class="grid">
+        <article>
+            <h3>Curiosidade 1</h3>
+        <p>Uma curiosidade do JavaScript é que, diferentemente de outras linguagens de programação como o CoffeeScript e o TypeScript, ele é uma linguagem de script orientada a objetos multiplataforma, pequena e leve, e pode ser executada diretamente pelos navegadores web. Além disso, o JavaScript possui a capacidade de se ligar aos objetos do ambiente em que é executado, fornecendo assim um controle programático sobre eles</p>
+          </article>
+          <article>
+            <h3>Curiosidade 2</h3>
+          <p>Uma curiosidade do JavaScript que as outras linguagens não têm é que ele não tem um mecanismo para criar variáveis de instância encapsuladas dentro de um objeto, o que pode causar problemas ao construir programas de médio a grande porte.Além disso, TypeScript é uma linguagem que adiciona alguns elementos novos ao JavaScript e propõe melhor organização do código existente, mas todo programa JavaScript é um programa TypeScript v</p>
+          </article>
+          <article>
+            <h3>Curiosidade 3</h3>
+          <p>Por fim, vale lembrar que o JavaScript é uma linguagem de programação interpretada, dialeto do padrão ECMAScript, definido como Orientado a Objeto, baseado em protótipo, imperativo, fracamente tipado e dinâmico.</p>
+        </article>
+      </div>
+    </div>
+   </section>
+
+
+
 </body>
 </html>
