@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="/assets/CSS/menu.CSS">
 <link rel="stylesheet" href="/assets/CSS/style.css">
 </head>
-<body class="main-bg">
+<body>
    <aside class="menu white-bg">
     <div class="main-content menu-content"> 
     <h1><a href="#home">Home</a> </h1>
@@ -24,7 +24,7 @@
           <li><a href="#HTML">HTML</a></li>
             <li><a href="#CSS">CSS</a></li>
             <li><a href="#JavaScript">JavaScript</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
     </div> 
@@ -40,7 +40,7 @@
     <p>A programação front-end é responsável pela construção da interface com a qual o usuário interage em um site, aplicativo ou software. Essa parte do desenvolvimento é interpretada pelos navegadores ou sistemas operacionais, e seu objetivo é transmitir os elementos visuais e interativos que permitem a interação do usuário com a aplicação. Usando de bases 3 tipos de linguagens: O JavaScript, HTML e o CSS.</p> 
     </div>
         <div class="intro-img">
-            <h1><img src="/assets/img/JS.svg" alt="Logo de HTML, CSS e JS"></h1>
+            <h1><figure><img src="/assets/img/JS.svg" alt="Logo de HTML, CSS e JS"></figure></h1>
         </div>
     </div>
    </section>
@@ -165,6 +165,47 @@
       </div>
     </div>
    </section>
+
+   <section id="Contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+    <div class="intro-text">
+    <h2>Formulario de contato</h2>
+    <p>Não perca a oportunidade de receber conteúdos exclusivos e informações valiosas. Preencha nosso formulário de contato e tenha acesso a materiais selecionados especialmente para você. Não deixe essa chance passar!</p> 
+    </div>
+        <div class="intro-img">
+            <h1> <figure><img src="/assets/img/JS.svg" alt="Logo de HTML, CSS e JS"></figure></h1>
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Contact me</legend>
+            <div class="form-group">
+              <label for="first-name">Primeiro nome</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Último nome</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Seu email" required>
+            </div>
+            <div class="form-group full">
+              <label for="mesage">Mesage</label>
+              <textarea name="mesage" id="mesage" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group full">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+    </div> 
+
+   </section>
+
+   <footer id="footer" class="footer white-bg">
+    <p>Feito por<a target="_blank" href="https://github.com/MiguelVMR"> Miguel </a> e <a href="#">Wembley</a> </p> 
+   </footer>
 
 
 
