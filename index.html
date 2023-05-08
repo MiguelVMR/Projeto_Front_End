@@ -15,11 +15,14 @@
 <link rel="stylesheet" href="/assets/CSS/style.css">
 </head>
 <body>
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
    <aside class="menu white-bg">
     <div class="main-content menu-content"> 
-    <h1><a href="#home">Home</a> </h1>
+    <h1 onclick="getElementById('close-menu').checked = false;">
+      <a href="#home">Home</a> </h1>
     <nav>
-        <ul>
+        <ul onclick="getElementById('close-menu').checked = false;">
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#HTML">HTML</a></li>
             <li><a href="#CSS">CSS</a></li>
@@ -76,7 +79,6 @@
 
       <p>No HTML, utilizamos elementos para definir os diferentes tipos de conteúdo de uma página web. Por exemplo, para definir um título, usamos o elemento <code>h1</code> e para criar um parágrafo, usamos o elemento <code>p</code>. Além disso, podemos adicionar ênfase ou importância a palavras utilizando os elementos <code>strong</code> e <code> em</code>, criar listas com os elementos <code>ul</code> e <code>ol</code>, e muito mais </p>
 
-      <p>Imagine que você está construindo uma casa. Antes de começar a construir as paredes e colocar os móveis, é preciso ter um projeto que mostre onde cada coisa deve ficar. O HTML funciona de maneira semelhante. Ele define a estrutura de uma página web, indicando onde cada elemento deve ser colocado e como deve ser exibido</p>
       </div>
    </section>
 
@@ -109,7 +111,7 @@
 
       <p>O CSS é fácil de aprender e entender, e é facilmente utilizado com HTML ou XHTML. Uma das coisas que você notará sobre escrever CSS é que muito disso é sobre caixas, indicando o tamanho, cor e posição dos elementos. Isso ocorre porque muitos dos elementos HTML podem ser pensados como caixas, uma em cima das outras, e o layout CSS é baseado principalmente no modelo de caixas.</p>
 
-      <p>Em resumo, o CSS é uma ferramenta importante para a aparência visual do seu website, permitindo que você personalize elementos como cores, fontes e layouts. Ele pode ser facilmente aprendido e utilizado em conjunto com HTML.</p>
+  
       </div>
    </section>
 
@@ -208,6 +210,7 @@
    <footer id="footer" class="footer white-bg">
     <p>Feito por<a target="_blank" href="https://github.com/MiguelVMR"> Miguel </a> e <a href="#">Wembley</a> </p> 
    </footer>
+   <a class="back-to-top" href="#">➤</a>
 
 
 
