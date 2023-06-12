@@ -215,7 +215,7 @@
         cursor: pointer;
       }
       h2 {
-        font-size: medium;
+        font-size: 30px;
       }
 
       .close-menu:checked~.menu {
